@@ -4,32 +4,5 @@
         "dockerfile": "Dockerfile"
     },
     "workspaceFolder": "/workspace",
-    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
-    "customizations": {
-        "vscode": {
-            "settings": {
-                "extensions": [
-                    "James-Yu.latex-workshop"
-                ],
-                "latex-workshop.latex.tools": [
-                    {
-                        "name": "latexmk",
-                        "command": "latexmk",
-                        "args": [
-                            "%DOC%"
-                        ],
-                        "env": {}
-                    }
-                ],
-                "latex-workshop.latex.recipes": [
-                    {
-                        "name": "default",
-                        "tools": [
-                            "latexmk"
-                        ]
-                    }
-                ]
-            }
-        }
-    }
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached"
 }
