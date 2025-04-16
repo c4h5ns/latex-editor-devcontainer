@@ -1,0 +1,83 @@
+{
+    "editor.wordSeparators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?　、。「」【】『』（）！？てにをはがのともへでや",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "latex-workshop.latex.recipe.default": "latexmk (LuaLaTeX)",
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "latexmk (upLaTeX)",
+            "tools": [
+                "latexmk (upLaTeX)"
+            ]
+        },
+        {
+            "name": "latexmk (pdfLaTeX)",
+            "tools": [
+                "latexmk (pdfLaTeX)"
+            ]
+        },
+        {
+            "name": "latexmk (LuaLaTeX)",
+            "tools": [
+                "latexmk (LuaLaTeX)"
+            ]
+        },
+        {
+            "name": "latexmk (XeLaTeX)",
+            "tools": [
+                "latexmk (XeLaTeX)"
+            ]
+        },
+        {
+            "name": "bibtex",
+            "tools": [
+                "bibtex"
+            ]
+        }
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk (upLaTeX)",
+            "command": "latexmk",
+            "args": [
+                "-pdfdvi",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "latexmk (pdfLaTeX)",
+            "command": "latexmk",
+            "args": [
+                "-pdf",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "latexmk (LuaLaTeX)",
+            "command": "latexmk",
+            "args": [
+                "-pdflua",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "latexmk (XeLaTeX)",
+            "command": "latexmk",
+            "args": [
+                "-pdfxe",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ],
+            "env": {}
+        }
+    ]
+}
