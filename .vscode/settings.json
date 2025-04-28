@@ -1,5 +1,8 @@
 {
     "editor.wordSeparators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?　、。「」【】『』（）！？てにをはがのともへでや",
+    "files.associations": {
+        ".latexmkrc": "perl"
+    },
     "terminal.integrated.defaultProfile.linux": "bash",
     "latex-workshop.latex.recipe.default": "latexmk (LuaLaTeX)",
     "latex-workshop.latex.recipes": [
